@@ -1,0 +1,12 @@
+USE ecom;
+
+ALTER TABLE client
+ADD CONSTRAINT age_unique UNIQUE(age);
+
+ALTER TABLE client
+ADD CONSTRAINT name_primary_key PRIMARY KEY(name);
+
+ALTER TABLE client
+MODIFY COLUMN is_active TINYINT DEFAULT 0;
+
+SHOW CREATE TABLE client;

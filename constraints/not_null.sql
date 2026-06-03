@@ -1,0 +1,9 @@
+USE ecom;
+
+ALTER TABLE client
+MODIFY email VARCHAR(50) NOT NULL;
+
+SELECT * FROM client;
+
+INSERT INTO client VALUES ('om','om@gmail.com',19,'2321234342',1,2026-06-02,2026-06-02
+2:
