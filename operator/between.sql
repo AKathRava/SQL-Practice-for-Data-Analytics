@@ -1,0 +1,3 @@
+SELECT *
+FROM orders
+WHERE price_per_unit BETWEEN 1000 AND 5000;
